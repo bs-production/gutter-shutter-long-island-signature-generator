@@ -34,7 +34,7 @@
         </div>
         <div class="field">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'directPhone';}" onfocus="if (this.value == 'directPhone') {this.value = '';}" :value="directPhone" @input="$emit('update:directPhone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Direct';}" onfocus="if (this.value == 'Direct') {this.value = '';}" :value="directPhone" @input="$emit('update:directPhone', $event.target.value)" type="text">
                     <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>
